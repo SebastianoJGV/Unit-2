@@ -1,4 +1,5 @@
 ```.py
+#given an array of sorted ints, find the largest difference between two adjacent numbers
 def bigNeighbour(inp):
     max=0;
     for i in range(len(inp)-1):
