@@ -2,9 +2,9 @@
 
 def sameFirstLast(lst:list):
     if len(lst) > 0 & lst[0] == lst[len(lst)-1]:
-        out="True"
+        out=True
     else:
-        out="False"
+        out=False
     return out    
 ```
 
