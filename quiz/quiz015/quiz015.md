@@ -1,5 +1,5 @@
 ```.py
-def reverseMode(str):
+def reverseMode(str:str):
     a=int(str[0:2], base=2)
     b=int(str[0:2], base=2)
     c=int(str[0:2], base=2)
