@@ -1,5 +1,5 @@
 ```.py
-def bubbleSwap(inp:string):
+def bubbleSwap(inp:str):
     chars = list(inp)
     l =len(inp)
     for i in range(l-1):
