@@ -41,3 +41,5 @@ price = [100, 225]
 total(food, price)
 
 ```
+
+![](Quiz013.PNG)
