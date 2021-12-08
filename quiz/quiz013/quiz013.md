@@ -1,4 +1,5 @@
 ```.py
+
 def total(items, amount):
     food = ["bread", 'rice']
     electronics = ['ipad', 'tv']
@@ -18,12 +19,12 @@ def total(items, amount):
             if addNew == 'y':
                 state=1
                 n = input('is it: food, electronics, or liquer?')
-                n.lower()
-                if n == 'food':
+                new = n.lower()
+                if new == 'food':
                     food.append(input('Enter the name of what you want to add'))
-                elif n == 'electronics':
+                elif new == 'electronics':
                     electronics.append(input('Enter the name of what you want to add'))
-                elif n == 'liquer':
+                elif new == 'liquer':
                     liquer.append(input('Enter the name of what you want to add'))    
             else:
                 print('Thank You')
@@ -34,3 +35,9 @@ def total(items, amount):
                 amount.append(i)
                 print('Thank You')
                 break
+
+food = ['bread', 'pudding']
+price = [100, 225]
+total(food, price)
+
+```
