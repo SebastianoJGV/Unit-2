@@ -7,5 +7,5 @@ def bubbleSwap(inp):
     return chars
 print('input is "will this work"')
 print(bubbleSwap("will this work"))
-```.py
+```
 ![](quiz016.PNG)
