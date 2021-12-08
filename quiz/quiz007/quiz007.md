@@ -5,4 +5,3 @@ def letter(n):
 ```
 ![](quiz007.PNG)
 
-![](quiz007 flow.png)
