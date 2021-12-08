@@ -1,6 +1,6 @@
 ```.py
 #Add all numbers in a list, except for contents between a 6 and a 7
-def sum67(inp):
+def sum67(inp:list):
     current=0
     indexi=0
     indexn=0
