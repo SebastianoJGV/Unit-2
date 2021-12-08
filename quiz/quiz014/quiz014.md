@@ -1,12 +1,12 @@
 ```.py
-def bubbleSort(arr):
+def bubbleSort(arr:kust):
     n = len(arr)
     for i in range(n-1):
         for j in range(0, n-i-1):
             if arr[j] > arr[j + 1] :
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
  
-def evenlySpaced(a, b, c):
+def evenlySpaced(a:int, b:int, c:int):
     lst=[]
     lst.append(a)
     lst.append(b)
