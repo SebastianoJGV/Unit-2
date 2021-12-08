@@ -6,3 +6,7 @@ def triangle(a, b, c):
     else:
         result = 'false'
     return result
+print('input is 4, 2, 3')
+print(triangle(4, 2, 3))
+```
+![](quiz017.PNG)
