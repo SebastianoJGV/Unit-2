@@ -1,4 +1,5 @@
 ```.py
+#Add all numbers in a list, except for contents between a 6 and a 7
 def sum67(inp):
     current=0
     indexi=0
@@ -14,3 +15,8 @@ def sum67(inp):
         sub += i
     sub = sum(inp)-sub
     return sub
+    
+print('input is: 1, 1, 6, 1, 1, 7, 1')
+print(sum67([1, 1, 6, 1, 1, 7, 1]))
+```
+![](quiz018.PNG)
