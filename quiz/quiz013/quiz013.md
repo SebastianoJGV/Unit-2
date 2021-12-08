@@ -1,6 +1,6 @@
 ```.py
 
-def total(items, amount):
+def total(items:list, amount:list):
     food = ["bread", 'rice']
     electronics = ['ipad', 'tv']
     liquer = ['water','beer']
@@ -36,9 +36,9 @@ def total(items, amount):
                 print('Thank You')
                 break
 
-food = ['bread', 'pudding']
+item = ['bread', 'pudding']
 price = [100, 225]
-total(food, price)
+total(item, price)
 
 ```
 
