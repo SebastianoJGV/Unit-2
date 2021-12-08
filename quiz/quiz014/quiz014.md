@@ -10,12 +10,16 @@ def evenlySpaced(a, b, c):
     lst=[]
     lst.append(a)
     lst.append(b)
-    lst.append(c)
+    lst.append(print('input is 4, 2, 6')c)
     bubbleSort(lst)
     if lst[1] - lst[0] == lst[2]-lst[1]:
         result = 'True'
     else:
         result = 'False'
     return result
-
+    
+print('input is 4, 2, 6')
 print(evenlySpaced(4, 2, 6))
+
+```.py
+![](quiz014.PNG)
