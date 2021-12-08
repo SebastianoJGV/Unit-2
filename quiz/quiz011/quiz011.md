@@ -6,3 +6,6 @@ def sameFirstLast(lst):
     else:
         out="False"
     return out    
+```
+
+![](quiz001.PNG)
