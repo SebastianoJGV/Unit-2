@@ -42,4 +42,4 @@ total(food, price)
 
 ```
 
-![](Quiz013.PNG)
+![](quiz013.PNG)
