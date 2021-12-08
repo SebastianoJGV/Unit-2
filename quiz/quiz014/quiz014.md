@@ -21,5 +21,5 @@ def evenlySpaced(a, b, c):
 print('input is 4, 2, 6')
 print(evenlySpaced(4, 2, 6))
 
-```.py
+```
 ![](quiz014.PNG)
