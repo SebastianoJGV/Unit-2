@@ -1,6 +1,6 @@
 ```.py
 #given 3 side lengths, can they form a triangle
-def triangle(a, b, c):
+def triangle(a:int, b:int, c:int):
     if a+b>c & a+c>b & b+c>a:
         result = 'true'
     else:
