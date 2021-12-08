@@ -6,5 +6,8 @@ def wordLength(lst):
         sum = sum+len(lst[i])
     average = sum/num
     return average
-
+print('input is [hi, how, are, you]')
 print(wordLength(['hi', 'how', 'are', 'you']))
+
+```
+![](quiz012.PNG)
