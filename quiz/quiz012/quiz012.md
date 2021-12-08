@@ -1,5 +1,5 @@
 ```.py
-def wordLength(lst):
+def wordLength(lst:list):
     num=len(lst)
     sum=0
     for i in range(num-1):
