@@ -1,0 +1,1 @@
+These files were used to simulate and teach the machine cycle, with one file listing the commands along with their hexadecimal values, and another file listing what the code itself would do as the CPU iterates through each RAM index.
